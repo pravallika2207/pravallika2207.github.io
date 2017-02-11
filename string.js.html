@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>STRINGS</title>
+     <style>
+     
+    </style>
+</head>
+<body id="body" >
+    
+<script type="text/javascript">
+
+    var a = "whats up?";//len of string
+    var h = new String("holla");
+    console.log(typeof a);//acts as string
+        console.log(typeof h);//acts as object
+    a==h;//true
+    a===h;//false
+  console.log(a.length);//iteration
+    var b=4345;
+    for(i in a){
+        console.log(a[i]);
+    }
+    //indexof
+    var juk ="hello everyone,how are u? wassup how is ur sis";
+   var position = juk.indexOf("how");
+    console.log(position);
+    console.log(juk.lastIndexOf("how"));
+    //search
+    var kim="hello everyone,how are u? wassup how is ur sis";
+    console.log(kim.search("wassup"));
+    //slice
+      var str="hello everyone,how are u? wassup how is ur sis";
+    var cutstr =str.slice(6,14);//slices the index[6]of the string till index []14
+    console.log(cutstr);
+    var cutstr2=str.slice(-4,-1);//string considered from ryt to left in above string s=-1 and r=-4
+    console.log(cutstr2);
+    console.log(str.slice(3));
+     console.log(str.slice(-10));
+    //substring
+    console.log(str.substring(5,10));//no negative values are used
+    //substr
+    console.log(str.substr(6,10));//from char 6 takes the next 10 chars from that string
+    //replace
+    var str4="welcome pravii!";
+    var str5 = str4.replace("pravii","kiet");//string gets replaced using this command here pravii gets replaced and kiet will b displayed therefore output is welcome kiet
+    console.log(str4);
+    //touppercase
+    var str6 ="mommy";
+    var str7 ="DADDY";
+    console.log(str6.toUpperCase());
+    console.log(str7.toLowerCase());
+    //CONCATENATE
+    var txt1="hai";
+    var txt2="pravi";
+    var txt3 = txt1.concat(" ",txt2);//double qoutes used for giving spacin btween the concatenated wordss
+    console.log(txt3);
+    //charat()
+    var jack ="PRAVALLIKA PODUGU";
+    console.log(jack.charAt(3));
+    //string as array
+    var hue="pravallika podugu";
+    console.log(hue[3]);
+    //split
+    var arr ="a,pravi,b,c,d,egg,love,illu,f,g,h,i";
+    console.log(arr.split(","));//for spliting all the array names into different strings
+    //trim
+    var str9 ="       hello";
+    console.log(str9.trim());//removes all d empty spaces befor and after the string//real world ex for this concept is usedd in signon forms 
+    </script>
+
+</body>
+</html>

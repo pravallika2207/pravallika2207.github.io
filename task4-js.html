@@ -1,0 +1,71 @@
+<html>
+<head>
+<title> strings</title>
+</head>
+<body>
+<center><h1>JAVASCRIPT STRINGS</h1></center>
+    <h2><u>UPPERCASE</u></h2>
+<h3>input:</h3><p id="txt0">friendship</p>
+<h3>output:</h3><p id="txt1"></p><hr>
+    <h2><u>STRING LENGTH</u></h2>
+<h3>input:</h3><p id="txt0">strength</p>
+<h3>output:</h3><p id="txt2"></p><hr>
+    <h2><u>SEARCH</u></h2>
+<h3>input:</h3><p id="txt0">bond between two things should be like</p>
+<h3>output:</h3><p id="txt3"></p><hr>
+    <h2><u>INDEX</u></h2>
+<h3>input:</h3><p id="txt0">live life like a king</p>
+<h3>output:</h3><p id="txt4"></p><hr>
+    <h2><u>SUBSTRING</u></h2>
+<h3>input:</h3><p id="txt0">everything we hear is not true</p>
+<h3>output:</h3><p id="txt5"></p><hr>
+    <h2><u>SLICE</u></h2>
+<h3>input:</h3><p id="txt0">all gliters are not gold</p>
+<h3>output:</h3><p id="txt6"></p><hr>
+    <h2><u>REPLACE</u></h2>
+<h3>input:</h3><p id="txt0">pravallika,podugu</p>
+<h3>output:</h3><p id="txt7"></p><hr>
+    <h2><u>LOWERCASE</u></h2>
+<h3>input:</h3><p id="txt0">SYSAPGLN</p>
+<h3>output:</h3><p id="txt8"></p><hr>
+<h2><u>charAt</u></h2>
+<h3>input:</h3><p id="txt0">keep smiling</p>
+<h3>output:</h3><p id="txt9"></p><hr>
+    <h2><u>CharcodeAt</u></h2>
+<h3>input:</h3><p id="txt0">value relations</p>
+<h3>output:</h3><p id="txt10"></p><hr>
+<h2><u>TRIM</u></h2>
+<h3>input:</h3><p id="txt0">"    hello    "</p>
+<h3>output:</h3><p id="txt11"></p><hr>
+    <h2><u>SUBSTR</u></h2>
+<h3>input:</h3><p id="txt0"> dont underestimate the power of yourself</p>
+<h3>output:</h3><p id="txt12"></p><hr>
+    <h2><u>CONCATENATE</u></h2>
+<h3>input:</h3><p id="txt0">"always" "behappy"</p>
+<h3>output:</h3><p id="txt13"></p><hr>
+    <h2><u>SPLIT</u></h2>
+<h3>input:</h3><p id="txt0">honesty is the best policy</p>
+<h3>output:</h3><p id="txt14"></p><hr>
+    <h3>output:</h3><p id="txt15"></p><hr>
+    <h3>output:</h3><p id="txt16"></p><hr>
+<script type="text/javascript">
+
+document.getElementById("txt1").innerHTML="friendship".toUpperCase();
+document.getElementById("txt2").innerHTML="strength".length;
+document.getElementById("txt3").innerHTML="bond between two things should be like".search("like");
+document.getElementById("txt4").innerHTML="live life like a king".indexOf("life");
+document.getElementById("txt5").innerHTML="everything we hear is not true".substring(13,16);
+document.getElementById("txt6").innerHTML="all gliters are not gold".slice(0,3);
+document.getElementById("txt7").innerHTML="pravallika,podugu".replace("podugu","sudharsana");
+document.getElementById("txt8").innerHTML="SYSAPGLN".toLowerCase();
+document.getElementById("txt9").innerHTML="keep smiling".charAt("3");
+document.getElementById("txt10").innerHTML="value relations".charCodeAt("6");
+document.getElementById("txt11").innerHTML="   hello   ".trim();
+document.getElementById("txt12").innerHTML=" dont underestimate the power of yourself".substr(5,15);
+document.getElementById("txt13").innerHTML="'always','behappy'".concat("");
+document.getElementById("txt14").innerHTML="honesty is the best policy".split(" ");
+document.getElementById("txt15").innerHTML="honesty is the best policy".split("");
+document.getElementById("txt16").innerHTML="honesty is the best policy".split(" ",3);
+</script>
+</body>
+</html>
